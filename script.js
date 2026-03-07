@@ -46,5 +46,5 @@ function closeModal() {
     cards.forEach(c => c.classList.remove('selected'));
     selectedStyle = null;
     confirmBtn.disabled = true;
-    confirmBtn.innerText = "Select a style first!";
+    confirmBtn.innerText = "Pick one first!";
 }
